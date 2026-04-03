@@ -1,0 +1,1 @@
+import { Product } from './Product'; export abstract class Creator { public abstract factoryMethod(): Product; public someOperation(): string { const product = this.factoryMethod(); return 'Creator: Worked with ' + product.operation(); } }

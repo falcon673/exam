@@ -1,0 +1,1 @@
+import { Creator } from './Creator'; import { ConcreteProductA, ConcreteProductB } from './ConcreteProducts'; import { Product } from './Product'; export class ConcreteCreatorA extends Creator { public factoryMethod(): Product { return new ConcreteProductA(); } } export class ConcreteCreatorB extends Creator { public factoryMethod(): Product { return new ConcreteProductB(); } }

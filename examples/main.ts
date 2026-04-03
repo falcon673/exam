@@ -1,0 +1,1 @@
+import { ConcreteCreatorA, ConcreteCreatorB } from '../src/creational/factory/ConcreteCreators'; console.log('App: Launched with ConcreteCreatorA.'); console.log(new ConcreteCreatorA().someOperation()); console.log('\nApp: Launched with ConcreteCreatorB.'); console.log(new ConcreteCreatorB().someOperation());
